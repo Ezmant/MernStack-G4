@@ -19,3 +19,20 @@ form input,
 label {
   margin-top: 4vh;
 }
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
